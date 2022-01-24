@@ -37,7 +37,7 @@ const sendForm = () => {
       sendMessage[span.textContent] = input.value;
     });
 
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+    fetch('https://iphone13-promo-default-rtdb.firebaseio.com/orders/orders.json', {
       method: 'POST',
       body: JSON.stringify(sendMessage),
       headers: {
