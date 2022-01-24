@@ -2,7 +2,7 @@
     font-family: "San Francisco";
     font-weight: 400;
     src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Regular.woff") format("woff");
+        url("../fonts/SFProDisplay-Regular.woff") format("woff");
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "San Francisco";
     font-weight: 300;
     src: url("../fonts/SFProDisplay-Thin.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Thin.woff") format("woff");
+        url("../fonts/SFProDisplay-Thin.woff") format("woff");
     font-display: swap;
 }
 
@@ -18,7 +18,7 @@
     font-family: "San Francisco";
     font-weight: 600;
     src: url("../fonts/SFProDisplay-Semibold.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Semibold.woff") format("woff");
+        url("../fonts/SFProDisplay-Semibold.woff") format("woff");
     font-display: swap;
 }
 
@@ -26,7 +26,7 @@
     font-family: "San Francisco";
     font-weight: 700;
     src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Bold.woff") format("woff");
+        url("../fonts/SFProDisplay-Bold.woff") format("woff");
     font-display: swap;
 }
 
@@ -44,8 +44,10 @@ html {
 body {
     min-width: 320px;
     margin: 0;
-    background-color: #fff; /* под проект */
-    font-family: "San Francisco", Arial, sans-serif; /* в "" свой шрифт под проект*/
+    background-color: #fff;
+    /* под проект */
+    font-family: "San Francisco", Arial, sans-serif;
+    /* в "" свой шрифт под проект*/
 
     font-size: 16px;
     font-weight: 400;
@@ -53,7 +55,8 @@ body {
     line-height: 1;
 }
 
-button, input {
+button,
+input {
     font: inherit;
 }
 
@@ -75,7 +78,11 @@ ul {
     list-style: none;
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
     padding: 0;
     margin: 0;
 }
@@ -111,7 +118,8 @@ h1, h2, h3, p, ul {
 
 .visually-hidden {
     position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
     padding: 0 !important;
     border: 0 !important;
@@ -202,6 +210,7 @@ h1, h2, h3, p, ul {
     .present {
         padding-bottom: 50px;
     }
+
     .present__title {
         font-size: 54px;
         margin-bottom: 30px;
@@ -335,7 +344,7 @@ h1, h2, h3, p, ul {
 }
 
 @media (max-width: 968px) {
-    .card{
+    .card {
         padding-top: 50px;
     }
 
@@ -376,6 +385,7 @@ h1, h2, h3, p, ul {
         margin-right: 0;
         margin-bottom: 15px;
     }
+
     .card-details__footer {
         flex-wrap: wrap;
         align-items: start;
@@ -439,7 +449,7 @@ h1, h2, h3, p, ul {
 }
 
 .characteristics__title:focus {
-    outline:none;
+    outline: none;
 }
 
 .characteristics__description.active {
@@ -496,6 +506,7 @@ h1, h2, h3, p, ul {
 }
 
 .cross-sell__title {
+    flex: 1 1 auto;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -541,7 +552,7 @@ h1, h2, h3, p, ul {
 
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal.open {
@@ -593,11 +604,9 @@ h1, h2, h3, p, ul {
     flex-grow: 1;
     border-style: solid;
     border-width: 1px;
-    border-color: transparent transparent #000 transparent ;
+    border-color: transparent transparent #000 transparent;
 }
 
 .modal__submit {
     margin-top: 20px;
 }
-
-
